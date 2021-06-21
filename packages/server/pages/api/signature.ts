@@ -14,7 +14,7 @@ type Data = {
 	appSignature: string;
 	nonceStr: string;
 	timestamp: number;
-	agentId: string;
+	agentid: string;
 	appJsApiList: string[];
 	corpJsApiList: string[];
 	corpid: string;
@@ -49,7 +49,7 @@ export default withAxiosLogger(async (req: NextApiRequest, res: NextApiResponse<
 		appSignature,
 		nonceStr: noncestr,
 		timestamp,
-		agentId: corp!.agentId!,
+		agentid: corp!.agentId!,
 		corpid: corpId.toString(),
 		corpJsApiList: ["checkJsApi", 'openUserProfile', 'getContext', "selectExternalContact"],
 		appJsApiList: ["checkJsApi", 'openUserProfile', 'getContext', 'selectExternalContact']

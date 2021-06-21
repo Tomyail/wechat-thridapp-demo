@@ -39,7 +39,7 @@ const MergeApp = () => {
           //@ts-expect-error
           wx.ready(function () {
             //@ts-expect-error
-            console.log(!!wx.agentConfig, Object.keys(wx).sort());
+            console.log(!!wx.agentConfig, Object.keys(wx).sort(),agentid);
             //@ts-expect-error
             wx.agentConfig({
               corpid, // 必填，企业微信的corpid，必须与当前登录的企业一致
