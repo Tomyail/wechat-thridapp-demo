@@ -20,7 +20,7 @@
     "nextjs-cors": "^1.0.5",
     "pino": "^6.11.3",
     "pino-multi-stream": "^5.3.0",
-    "pino-pretty": "^5.0.2",
+    "pino-pretty": "6.0.0",
     "pino-tee": "^0.3.0",
     "rambda": "^6.7.0",
     "react": "^17.0.2",
