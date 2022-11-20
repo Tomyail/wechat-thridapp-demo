@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@types/jweixin": "^1.0.7",
-    "@types/pino": "^6.3.8",
+    "@types/pino": "^7.0.0",
     "@types/pino-multi-stream": "^5.1.1",
     "@types/react": "17.0.9",
     "prisma": "^2.24.1",
