@@ -16,7 +16,7 @@
     "cors": "^2.8.5",
     "find-up": "^5.0.0",
     "js-base64": "^3.6.1",
-    "next": "10.2.3",
+    "next": "13.5.0",
     "nextjs-cors": "^1.0.5",
     "pino": "^6.11.3",
     "pino-multi-stream": "^5.3.0",
